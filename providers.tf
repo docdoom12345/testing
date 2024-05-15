@@ -8,7 +8,6 @@ terraform {
   required_version = "=1.8.3"
 }
 
-# Configure the Microsoft Azure Provider
 provider "azurerm" {
   features {}
 

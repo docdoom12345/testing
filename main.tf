@@ -2,7 +2,6 @@ resource "azurerm_resource_group" "example" {
   name     = "example-resources1"
   location = "West Europe"
 }
-
 resource "azurerm_virtual_network" "example" {
   name                = "example-network"
   location            = azurerm_resource_group.example.location
